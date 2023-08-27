@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=redressed&family=Merriweather:ital,wght@1,400;1,600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cc-navbar{
+    background-color: rgba(16, 136, 5, 0.601);
+    font-family:' merriweathe' , serif;
+    box-shadow: 1px 1px 3px rgba(225, 225, 225, 0.54);
+    z-index: 99;
+}
+
+.cc-navbar .navbar-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+.cc-navbar .navbar-link:hover {
+    padding-top: 20px;
+    border-color: var(--bs-body-teal);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: green;
+    line-height: 1.6;
+
+}
+
+#showcase{
+    background-image: url("img/carrot-1565597_1280.jpg");
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    
+}
+#showcase h1{
+    font-size: 50px;
+    color: black;
+
+}
+#showcase p{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+#showcase span{
+    color: green;
+}
+
+#showcase .button{
+    font-size: 18px;
+    color: green;
+    text-decoration: none;
+    border: 1px solid green;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: rgba(7, 152, 38, 0.104);
+
+}
+
+
+.rowf{
+    display: grid;
+    grid-template-columns: 1f 1fr 1fr 1fr 1fr;
+    grid-template-rows: 700px;
+   
+    flex-wrap: nowrap;
+}
+
+.gri{
+    display: grid;
+    grid-template-columns: 290px 290px 290px 290px 290px;
+    grid-template-rows: 650px; ;
+    margin: 5px;
+
+}
+
+.csl{
+    height: 600px;
+padding-left: 400px;
+
+}
+
+.csl > img {
+height: 400px;
+}
+
+}
